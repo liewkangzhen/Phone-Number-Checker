@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial;
+    background: #c5ec71;
+  }
+  
+  #title {
+    margin-top: 0;
+    font-weight: 800;
+  }
+  
+  #phone {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    background-color: black;
+  }
+  
+  #phone-camera {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: #DCDCDC;
+  }
+  
+  #phone-screen {
+    border: 1px solid black;
+    margin: 5px auto;
+    height: 90%;
+    padding: 5px;
+    background-color: #DCDCDC;
+    overflow: auto;
+  }
+  
+  #label {
+  
+  }
+  
+  #user-input {
+    margin: 5px auto 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+  }
+  
+  #results-div {
+    height: 70%;
+    overflow: auto;
+  }
+  
+  .result-display {
+    height: 25%;
+    font-size: 1.25rem;
+  }
+  
+  .Valid {
+    color: green;
+  }
+  
+  .Invalid {
+    color: red;
+  }
+  
+  #button-holder {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn {
+    border-right: 2px solid	#C0C0C0;
+    border-bottom: 2px solid	#C0C0C0;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    background: linear-gradient(white, #808080);
+    width: 60px;
+  }
+  
+  #examples-btn {
+    width: 80px;
+    margin-top: 10px;
+  }
+  
+  .modal-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .examples-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
